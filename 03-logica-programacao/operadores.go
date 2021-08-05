@@ -4,11 +4,18 @@ import "fmt"
 
 // baseado em: https://www.digitalocean.com/community/tutorials/understanding-boolean-logic-in-go-pt
 func main() {
-	x := 5
-	y := 8
 
-	OpEquals(x, y)
-	OpNotEquals(x, y)
+
+	OpEquals(1, 1)
+	OpNotEquals(1, 2)
+	OpLess(1, 2)
+	OpGreater(2, 1)
+	OpLessOrEqual(5, 10)
+	OpGreaterOrEqual(5, 4)
+	PossoFazerUmSaque(10, 5)
+
+
+
 	// adicione um exemplo de chamada de cada metodo
 
 }
@@ -45,6 +52,7 @@ func OpGreaterOrEqual(x int, y int) bool {
 
 func PossoFazerUmSaque(saldo int, saque int) bool {
 	// FIXME implementar logica
+
 
 	return false
 }
