@@ -14,5 +14,6 @@ func main(){
 	fmt.Scanf("%d", &idade)
 
 	fmt.Printf("\nNome: %s\nidade: %d\n", name ,idade)
+	//new
 
 }
