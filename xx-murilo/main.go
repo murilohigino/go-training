@@ -4,13 +4,14 @@ import "fmt"
 
 func main(){
 
-	x:=1
-	y:=2
-	fmt.Printf("\nValor de X: %v\nValor de y: %v", x, y)
-	//OpEquals
-}
+	var name string
+	var idade int
 
-func OpEquals(x int, y int) bool {
-	  fmt.Println("x == y:", x == y)
-	  return x == y
+	fmt.Printf("\nDigite seu nome:\n")
+	fmt.Scanf("%s", &name)
+
+	fmt.Printf("Digite sua idade:\n")
+	fmt.Scanf("%d", &idade)
+
+	fmt.Printf("\nNome: %s\nidade: %d\n", name ,idade)
 }
